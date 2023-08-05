@@ -1,0 +1,35 @@
+# requirements.txt
+
+# Microsoft Graph Client for Microsoft Email Services
+msal==1.12.0
+
+# OpenAI GPT model
+transformers==4.6.1
+
+# Flask for the web dashboard and webhook handling
+Flask==2.0.2
+
+# To expose Flask to the web if working in a local dev environment
+flask-ngrok==0.0.25
+
+# HTTP requests
+requests==2.25.1
+
+# Data handling
+pandas==1.3.2
+
+# Asynchronous tasks
+celery==5.1.2
+
+# SQL Alchemy for Database interactions
+SQLAlchemy==1.4.22
+
+# Database Migrations for SQLAlchemy
+Flask-Migrate==3.1.0
+
+# Encryption
+cryptography==3.4.7
+
+# Logging and error tracking
+Sentry-SDK[flask]==1.3.1
+# This file may not contain all the requirements
