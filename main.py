@@ -46,6 +46,6 @@ if __name__ == "__main__":
                 logging.error(f"Max retries reached. Stopping the service.")
                 running = False
             else:
-                time.sleep(60 * error_retries)  # Exponential backoff
+                time.sleep(60 * error_retries)  
 
     logging.info("Email processing service stopped.")
